@@ -19,6 +19,7 @@ body{
 #display{
     width: 100%;
     padding: 20px;
+    font-size: 5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -27,7 +28,9 @@ body{
 
 #keys{
     display: grid;
+    /*gives the grid 4 rows, 1fr gives the buttons an even amount of space*/
     grid-template-columns: repeat(4, 1fr);
+    /*the spacing between each of the buttons*/
     gap: 10px;
     padding: 25px;
 
@@ -40,7 +43,7 @@ button{
     height: 100px;
     color: white;
     background-color: hsl(0, 0%, 30%);
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
     border: none;
