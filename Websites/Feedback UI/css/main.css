@@ -55,7 +55,8 @@ body{
 background: darkseagreen;
 box-shadow: 0 8px 10px rgb(0,0,0, .3);
 color: aliceblue;
-/*animation effect for the the rules, all applies to all with this hover rules, 300ms for when the animation is finished, ease is for how the animation looks which is faded color gets stronger and stronger color*/
+/*animation effect for the the rules, all applies to all with this hover rules, 300ms for when the animation is finished, 
+ease is for how the animation looks which is faded color gets stronger and stronger color*/
 transition: all 300ms ease;
 border-radius: 10px;
 
